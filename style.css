@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+ 
+}
+.logo{
+   display: inline-block;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   font-size: 20px;
+}
+.nav-bar{
+    background-color: rgb(36, 33, 33);
+    color:whitesmoke;
+    padding:10px 0px;
+}
+.nav{
+    width: 70%;
+    margin:0 auto;
+}
+.nav>ul>li{
+    display: inline-block;
+    margin: 0px 10px;
+}
+
+.nav>ul{
+    float: right;
+    position: relative;
+    
+}
+.service-menu{
+    padding:10px;
+    display:none;
+    position:absolute;
+    background-color: black;
+    list-style: none;
+    
+}
+ li{
+    text-decoration:none; 
+ }
+.nav>ul>li:hover .service-menu{
+    display:block;
+}
+/* Welcome Section */
+.main-content{
+clear: both;
+width:70%;
+margin:0 auto;
+}
+#welcome{
+    margin-top: 10px;
+    background-color: rgb(236, 230, 230);
+    border:1px solid rgb(182, 178, 178);
+    border-radius: 5px;
+    padding: 50px 40px;
+    margin-bottom: 30px;
+}
+.heading{
+    font-size: 60px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px;
+}
+#welcome>p{
+    margin:20px 0px;;
+}
+button{
+    color:whitesmoke;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding:10px;
+    border-radius:5px;
+    background-color:rgb(39, 108, 212);
+    text-decoration: none;
+    border: none;
+  
+}
+/* Cards Section */
+.card{
+    width:24%;
+    margin-left:14px;
+    border:1px solid rgb(182, 178, 178);
+    float:left;
+    box-sizing:border-box;
+    border-radius:5px;
+    margin-bottom: 50px;
+    
+}
+h3{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top: 10px;
+    font-size: 25px;
+}
+.title-content>p{
+   margin:30px;
+}
+.first{
+    margin-left: 0px;
+}
+.button{
+   
+    border-top: 1px solid gray;
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(236, 230, 230);
+}
+img{
+    width: 100%;
+    box-sizing: border-box;
+    
+}
+.title-content{
+    text-align: center;
+}
+/* About Section */
+#about{
+    clear: both;
+    color:gray;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  
+}
+.about-heading{
+    text-align: center;
+    
+}
+.about-heading>h1{
+    margin-bottom: 5px;
+}
+.about-info{
+    width:90%;
+    margin: 0 auto;
+    position: relative;
+}
+.image{
+    position:absolute;
+    left:43%;
+}
+.event-info{
+    margin-top: 70px;
+
+}
+.about-heading>h1{
+    font-size: 50px;
+    color:black;
+}
+.event-info img{
+    border:3px solid rgb(175, 173, 173);
+    border-radius:50%;
+    width:100px;
+    height:100px;
+}
+.event-info-text-left{
+    float: left;
+    text-align: right;
+    margin-left: 40px; 
+    padding-left: 40px;
+}
+.event-info-text-right{
+    float: right;
+    text-align: left;
+    padding-right: 70px;
+    margin-right: 40px; 
+}
+.clear{
+    clear: both;
+}
+.common-features{
+    width:30%;
+}
+.vertical{
+    width:2px;
+    background-color: rgb(175, 173, 173);
+    height:520px;
+    position:relative;
+    left:48%;
+    top:-4px;
+}
+
+.event-info-heading p{
+    color:black;
+    font-weight:bold;
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+/* Footer */
+footer{
+    margin-top:80px;
+    text-align: center;
+    color:white;
+    background-color: rgb(36, 33, 33);
+    padding:30px;
+   
+}
